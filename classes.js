@@ -6,7 +6,7 @@ export class Vehicle {
         return '(' + this.wheels + ')';
     }
     }
-    class Car extends Vehicle {
+    export class Car extends Vehicle {
         constructor(color) {
             super(4);
             this.color = color;
